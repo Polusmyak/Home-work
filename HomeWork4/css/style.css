@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+body {
+	 background-image: url(bodybackground.jpg);
+	 height: 830px;
+     }
+.outline {
+	     width: 1000px;
+	     height: 825px;
+	     margin: 0 auto;
+	     background-color: white;
+         }
+.topinformation {background-image: url(logo.jpg);
+	height: 175px;
+         }
+.header {
+	    height: 440px;
+	    }
+.name {
+	margin-left: 100px;
+	padding-top: 105px;
+    color: #4b9db4;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Tahoma;
+      }
+.contacts {
+	margin-left: 840px;
+	margin-top: -106px;
+    color: #5fa5bb;
+    font-size: 12px;
+    font-family: Tahoma;
+          }
+.contacts li:first-child {
+    font-weight: bold; padding-bottom: 10px;
+	                     } 
+.contacts a {
+ 	color: #5fa5bb;
+ 	text-decoration: none;
+            }
+.countries {
+    font-size: 10px;
+    font-family: Tahoma;
+    color: #128aa7;
+    margin-left: 647px;
+    padding-top: 85px;
+            }
+ul.countries li {
+	display: inline;
+	padding: 10px;
+	          }
+.mainlist {
+    background: #333333;
+    height: 27px;
+          }
+.mainlist li {
+	display: inline-block; 
+           	 }
+.mainlist a {
+	display: inline-block; 
+	color: #ffffff;
+    text-decoration: none;
+    height: 27px;
+    font-family: Tahoma, Arial; 
+    font-size: 14px;
+            }
+ul.mainlist li {
+	padding-left: 55px;
+	padding-top: 5px;
+               }
+    select {
+	background: #333333; 
+	color: #ffffff;
+	border: none;
+	       }
+.info {
+	float: left;
+	width: 20%;
+	border-right: 1px solid #c7cacf;
+    background: #edeef0;
+	padding-left: 15px;
+	font-size: Tahoma;
+	height: 358px;
+      }
+.headinfo {
+	font-weight: bold;
+	color: #424c43;
+	padding-left: 35px;
+	font-family: Tahoma;
+	font-size: 17px;
+	padding-top: 5px;
+	padding-top: 5px;
+          }
+.feed {
+	float: right;
+	width: 20%;
+	border-left: 1px solid #c7cacf;
+	background: #edeef0;
+	padding-left: 15px;
+      }
+.headfeed {
+	font-weight: bold;
+	color: #424c43;
+	margin-left: 55px; 
+	font-family: Tahoma;
+	font-size: 17px;
+	padding-top: 5px;
+	padding-top: 5px;
+          }
+.footer {
+	clear: both;
+	margin-top: 850;
+	margin-left: 380px;
+        }
+.under { 
+	position: absolute; left: 500px; top: 835px;
+	color: white;
+       }
